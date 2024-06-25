@@ -1,0 +1,14 @@
+body{
+background-color: rgb(255, 218, 209);
+.lorem{
+    background-color: aqua;
+    color: rgb(190, 3, 200);
+}
+.two{
+    background-color: cornsilk;
+    color: rgb(206, 107, 128);
+}
+.color{
+    color: blueviolet;
+}
+}

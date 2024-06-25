@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yadayada</title>
+</head>
+<body>
+    <a href="https://yada.org/">YADA</a>
+    
+<link rel="stylesheet" href="style.css">
+
+
+<table>
+<tr>
+
+<td>duck</td>
+<td>army</td>
+<td>chicken</td>
+
+</tr>
+
+</table>
+
+<ul>
+<li>panik</li>
+<li>kalm</li>
+<li>PANIK</li>
+
+<table>
+    <tr>
+        <th></th>
+        <th scope="col">Saturday</th>
+        <th scope="col">Sunday</th>
+    </tr>
+
+    <tr>
+        <th scope="row">Tickets sold:</th>
+        <td>120</td>
+        <td>135</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Total Sales</th>
+        <td>600.00</td>
+        <td>675.98</td>
+    </tr>
+</table>
+
+<p>
+<table>
+    <tr>
+        <th></th>
+        <th scope="col">French</th>
+        <th scope="col">English</th>
+    </tr>
+    <tr>
+        <th scope="row">Hello</th>
+        <td>Bonjour</td>
+        <td>Hello</td>
+    </tr>
+    <tr>
+        <th scope="row">Goodbye</th>
+        <td>Au revoir</td>
+        <td>Goodbye</td>
+    </tr>
+</table>
+</p>
+
+
+</table>
+
+<p><a href="mailto:zilin.s.liu@gmail.com">zilin.s.liu@gmail.com</a></p>
+
+<p>Username</p>
+<input type="text" name="username" size="15" maxlength="30">
+
+<!---Comment box-->
+<p>Did you like the ducks? <br>Enter your comments below.
+</p>
+<textarea name="comments" cols="20" rows="4"></textarea>
+
+<!---Music selection box-->
+<p>Please select your favorite music service:
+<br>
+<input type="checkbox" name="service"
+value="itunes" checked="checked"> iTunes
+<input type="checkbox" name="service" value="lastfm"> Last.fm
+<input type="checkbox" name="service" value="Spotify"> Spotify </p>
+
+<p>What device do you listen to music on?</p>
+<select name="devices">
+    <option value="Select device">Select device</option>
+    <option value="Ipod">ipod</option>
+    <option value="radio">radio</option>
+    <option value="computer">computer</option>
+</select>
+
+<!---Multiple Select Box-->
+
+<p>Do you play any of the following instruments?
+    <br>(You can select more than one option by holding down the control on a PC or command key on a mac while selecting different options)
+<select name="Instruments" size="3" multiple="multiple">
+</p>
+    <br>
+    <option value="guitar" selected="select">guitar</option>
+    <option value="piano" selected="select">piano</option>
+    <option value="drums" selected="select">drums</option>
+    <option value="cello" selected="select">cello</option>
+</br>
+</select>
+<!---File input box-->
+<p>Upload your song in MP3 format:</p>
+<input type="file" name="user-song"> <br>
+
+<input type="submit" value="Upload">
+
+<!---Image Button-->
+<p>Subscribe to our list:</p>
+<input type="text" name="email">
+<input type="image" src="image/Subscribe.jpg" width="100" height="20">
+
+<!---Labeling Form Controls-->
+
+<p>
+<label> Age: <input type="text" name="age"></label>
+<br>
+Gender: <input id="female" type="radio" name="gender" value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" value="m">
+<label for="male">Male</label>
+</p>
+
+<!---Grouping Form Elements-->
+<fieldset>
+    <legend>Contact Details</legend>
+    <label>Email: <br>
+    <input type="text" name="email"></label><br>
+ 
+        <label>Mobile: <br>
+     <input type="text" name="mobile"></label><br>
+
+     <label>Telephone: <br>
+        <input type="text" name="telephone"></label><br>
+
+        
+</fieldset>
+
+<!---HTML 5 Placeholder-->
+
+<p>Search:</p>
+<input type="search" name="search"
+    placeholder="Enter Keyword"/>
+<input type="submit" value="Search"/>
+
+<!---html 15 email-->
+<p>Please enter your email address:</p>
+<input type="email" name="email"/>
+<input type="submit" value="submit">
+</body>
+</html>
