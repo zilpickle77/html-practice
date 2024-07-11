@@ -1,0 +1,8 @@
+body{
+background-color: rgb(232, 194, 242);
+
+  background-image: linear-gradient(to bottom, #a526ea, #b26ff9, #c5a2ff, #dfd2ff, #ffffff);
+.questions{
+  text-align: left;
+}
+}
